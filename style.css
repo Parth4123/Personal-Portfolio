@@ -153,7 +153,7 @@ section{
 
 #profile{
     display: flex;
-    justify-content: center;
+    justify-content:center;
     gap: 2rem;
     height: 80vh;
 }
@@ -161,7 +161,7 @@ section{
     display: flex;
     height: 400px;
     width: 400px;
-    margin: auto;
+    margin: auto 0;
 
 }
 
@@ -244,4 +244,179 @@ color:white;
 
 .btn-container{
     gap: 1rem;
+}
+
+/* About */
+
+#about{
+   position: relative;
+}
+
+.about-containers{
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.about-details-container{
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-containers, .about-details-container{
+    display: flex;
+}
+
+.about-pic{
+    border-radius: 2rem;
+}
+
+.arrow{
+    position: absolute;
+    right: -5rem;
+    bottom: 5.5rem
+}
+
+.details-container{
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53 , 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+}
+
+.section-container{
+    gap: 2rem;
+    height: 80%;
+}
+
+.section__pic-container{
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+/* Expeirence Section */
+#experience{
+    position: relative;
+}
+
+.experience-sub-title{
+    color: rgb(85,85,85);
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem ;
+
+}
+
+.experience-details-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.article-container{
+    display: flex;
+    text-align: initial;
+    align-items: center;
+    flex-wrap: wrap ;
+    flex-direction: row;
+    gap:2.5rem;
+    justify-content: space-evenly;
+}
+
+article{
+    display: flex;
+    width: 10rem;
+    gap: 0.5rem;
+}
+
+article .icon{
+    cursor: default;
+}
+
+/* Projects */
+
+#projects{
+    position: relative;
+}
+
+.color-container{
+    border-color: rgb(163, 163, 163);
+    background: rgb(255, 255, 255);
+}
+
+.project-img{
+    border-radius: 1.5rem;
+    width: 20rem;
+    height: 15rem;
+}
+
+.project-title{
+    margin: 1rem;
+    color: black;
+}
+
+.project-btn{
+    color: black;
+    border-color: rgb(163, 163, 163);
+}
+
+/* COntacts */
+
+#contacts{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.contact-info-upper-container{
+    display: flex;
+    flex: wrap;
+    
+    justify-content: center;
+    border-radius: 2rem;
+    /* border: rgb(53 , 53, 53) 0.1rem solid; */
+    border-color: rgb(163, 163, 163);
+    background: rgba(193, 187, 187, 0.373);
+    margin: 2rem;
+    padding: 0.5rem;
+}
+
+.contact-info-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+
+.contact-info-container p{
+    font-size: larger;
+}
+
+.contact-icon{
+    cursor: default;
+}
+
+.email-icon{
+    height: 2.5rem;
+}
+
+.discord-icon{
+    height: 3rem;
+}
+
+/* Footer  */
+footer{
+    height: 26vh;
+    margin: 0 1rem;
+}
+
+footer p{
+    text-align: center;
 }
